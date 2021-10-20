@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex04;
+package ch02_Ex04;
 
 public class PrintfEx01 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex10;
+package ch02_Ex10;
 
 public class FloatEx1 {
 

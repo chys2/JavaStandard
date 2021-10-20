@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex09;
+package ch02_Ex09;
 
 public class OverflowEx {
 

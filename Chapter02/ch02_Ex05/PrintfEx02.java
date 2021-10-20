@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex05;
+package ch02_Ex05;
 
 public class PrintfEx02 {
 

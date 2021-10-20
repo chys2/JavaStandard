@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex03;
+package ch02_Ex03;
 
 public class StringEx {
 	public static void main(String[] args) {

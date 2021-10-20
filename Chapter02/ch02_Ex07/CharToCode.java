@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex07;
+package ch02_Ex07;
 
 public class CharToCode {
 

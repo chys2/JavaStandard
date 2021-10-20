@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex14;
+package ch02_Ex14;
 
 public class CastingEx03 {
 

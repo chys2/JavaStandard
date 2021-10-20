@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex11;
+package ch02_Ex11;
 
 public class FloatToBinEx {
 

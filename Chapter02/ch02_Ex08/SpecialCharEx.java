@@ -1,4 +1,4 @@
-package Chapter02.ch02_Ex08;
+package ch02_Ex08;
 
 public class SpecialCharEx {
 
