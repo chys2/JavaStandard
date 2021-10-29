@@ -5,7 +5,8 @@ public class OperatorEx13 {
 		
 		char c1 = 'a';
 		
-		char c2 = (char) (c1 +1);
+//		char c2 = c1 + 1; 		//컴파일 에러
+		char c2 = (char) (c1 +1);		//형변환
 		
 		char c3 = 'a' +1;
 		
