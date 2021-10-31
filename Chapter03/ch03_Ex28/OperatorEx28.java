@@ -2,7 +2,7 @@ package ch03_Ex28;
 
 public class OperatorEx28 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		//122p 참조
 		
 	int x = 0xAB, y = 0xF;
 	
@@ -20,8 +20,8 @@ public class OperatorEx28 {
 
 	}
 
-	private static Object toBinaryString(int x) {  // 10������ 2������ ��ȯ�ϴ� �޼ҵ�
-		// TODO Auto-generated method stub
+	private static Object toBinaryString(int x) {  // 10진 정수를 2진수로 변환하는 메서드
+		
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);
 		

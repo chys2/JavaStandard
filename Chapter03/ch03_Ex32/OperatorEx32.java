@@ -2,7 +2,7 @@ package ch03_Ex32;
 
 public class OperatorEx32 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		//131p 참조
 		
 		int x, y, z;
 		int absX, absY, absZ;

@@ -2,7 +2,7 @@ package ch03_Ex29;
 
 public class OperatorEx29 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		//124p 참조
 		
 	byte p = 10;
 	byte q = -10;
@@ -24,7 +24,7 @@ public class OperatorEx29 {
 
 	}
 
-	private static Object toBinaryString(int x) {  // 10�� ������ 2������ ��ȯ�ϴ� �޼ҵ�
+	private static Object toBinaryString(int x) {  // 10진 정수를 2진수로 변환하는 메서드
 		// TODO Auto-generated method stub
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);
