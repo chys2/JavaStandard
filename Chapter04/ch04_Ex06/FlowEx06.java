@@ -11,7 +11,7 @@ public class FlowEx06 {
 		
 		Scanner scanner = new Scanner(System.in);
 		int user = scanner.nextInt();
-		int com =(int)(Math.random()*3)+1;
+		int com =(int)(Math.random()*3)+1;		//랜덤 숫자 1 ~ 3 발생
 		
 		System.out.println("당신은" + user + "입니다");
 		System.out.println("컴은" + com + "입니다");

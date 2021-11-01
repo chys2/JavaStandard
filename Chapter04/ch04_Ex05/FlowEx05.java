@@ -13,15 +13,15 @@ public class FlowEx05 {
 		System.out.print("점수를 입력하세여.>");
 		
 		Scanner scanner = new Scanner(System.in);
-		score = scanner.nextInt();
+		score = scanner.nextInt();		//점수 입력
 		
 		System.out.printf("당신의 점수는 %d입니다. %n", score);
 		
-		if(score >= 90 ) {
+		if(score >= 90 ) {				//90점 이상
 			grade = 'A';
-			if(score >= 98) {
+			if(score >= 98) {			//90점 이상이면서 98점 이상이면 A+
 				opt='+';
-			}else if(score < 94) {
+			}else if(score < 94) {		//90점 이상이면서 94점 미만이면 A-
 				opt='-';
 			}
 		}else if(score >= 80) {
@@ -42,6 +42,7 @@ public class FlowEx05 {
 			grade = 'D';
 		}
 		
+		//저 사이 조건이 맞지 않으면 0출력 (A0, B0)
 		System.out.printf("당신의 학점은 %c%c입니다",grade,opt);
 	}
 }

@@ -13,7 +13,7 @@ public class FlowEx04 {
 		System.out.print("점수를 입력하세여.>");
 		
 		Scanner scanner = new Scanner(System.in);
-		score = scanner.nextInt();
+		score = scanner.nextInt();		//점수 입력
 		
 		if(score >= 90 ) {
 			grade = 'A';

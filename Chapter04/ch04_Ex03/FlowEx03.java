@@ -16,7 +16,7 @@ public class FlowEx03 {
 		
 		if(input ==0) {
 			System.out.println("입력하신 숫자는 0입니다.");
-		}else {
+		}else {		//전 예제에서 if에서 else로 바뀜
 			System.out.println("입력하신 숫자는 0이 아닙니다.");
 			System.out.printf("입력하신 숫자는 %d입니다.", input);
 		
