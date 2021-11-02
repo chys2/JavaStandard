@@ -10,12 +10,15 @@ public class FlowEx08 {
 		System.out.print("당신의 주민번호를 입력하세요.(011231-1111222)>");
 		
 		Scanner scanner = new Scanner(System.in);
+		
 		String regNo = scanner.nextLine();
 		
-		char gender = regNo.charAt(7);
-	
+		char gender = regNo.charAt(7);		//입력받은 인덱스 값이 7 해당하는 데이터 저장
+		
+		System.out.println(gender);
+		
 			switch(gender) {
-			
+				
 				case '1':
 				case '3':
 					System.out.println("당신은 남자입니다.");

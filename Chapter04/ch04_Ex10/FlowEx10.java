@@ -13,7 +13,7 @@ public class FlowEx10 {
 		Scanner scanner = new Scanner(System.in);
 		int score = scanner.nextInt();
 	
-			switch(score/10) {
+			switch(score/10) {		//입력 받은 점수 / 10
 			
 				case 10:
 				case 9:

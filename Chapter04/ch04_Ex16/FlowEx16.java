@@ -9,7 +9,7 @@ public class FlowEx16 {
 				System.out.print("*");
 			}
 			System.out.println();
-		}
+		}		//직삼각형
 		
 		System.out.println();
 		
@@ -18,6 +18,6 @@ public class FlowEx16 {
 				System.out.print("*");
 			}
 			System.out.println();
-		}
+		}		//역직삼각형
 	}
 }

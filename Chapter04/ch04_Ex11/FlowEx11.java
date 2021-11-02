@@ -13,7 +13,7 @@ public class FlowEx11 {
 		
 		String regNo = scanner.nextLine();
 		
-		char gender = regNo.charAt(7);
+		char gender = regNo.charAt(7);		//성별을 나타내는 인덱스(7)을 저장
 	
 			switch(gender) {
 			
