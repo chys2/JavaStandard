@@ -12,7 +12,7 @@ public class FlowEx24 {
 			System.out.println(i);
 			
 			for(int j =0; j<2_000_000_000; j++) {
-				;
+				;		//한번만 수행
 			}
 		}
 		System.out.println("Game Over");

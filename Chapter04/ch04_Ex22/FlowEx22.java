@@ -8,11 +8,11 @@ public class FlowEx22 {
 		
 		int sum = 0;
 		
-		for(int i =0; i<arr.length; i++) {
+		for(int i =0; i<arr.length; i++) {		//index를 이용하여 arr출력
 			System.out.printf("%d ", arr[i]);
 		}
 		System.out.println();
-		for(int a : arr) {
+		for(int a : arr) {						//for each문으로 출력
 			System.out.printf("%d ", a);
 			sum += a;
 		}

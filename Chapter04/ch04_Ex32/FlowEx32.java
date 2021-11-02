@@ -6,7 +6,6 @@ public class FlowEx32 {
 
 	public static void main (String args[]) {
 		int menu = 0;
-		int num = 0;
 		
 		Scanner scanner = new Scanner(System.in);
 		
@@ -21,10 +20,10 @@ public class FlowEx32 {
 			
 			if(menu==0) {
 				System.out.println("프로그램을 종료합니다.");
-				break;
+				break;		//while문 종료
 			}else if(!(1 <= menu && menu <=3 )) {
 				System.out.println("메뉴를 잘못 선택하였습니다.");
-				continue;
+				continue;	//while문 처음으로
 			}
 			System.out.println("선택하신 메뉴는 " + menu + "번입니다.");
 		}

@@ -28,14 +28,14 @@ public class FlowEx34 {
 				continue;
 			}
 			
-			for(;;) {
+			for(;;) {		//무한반복
 				System.out.print("계산할 값을 입력하세여.(계산 종료:0, 전체종료:99)");
 				
 				tmp=scanner.nextLine();
 				num = Integer.parseInt(tmp);
 				
 				if(num==0) {
-					break;		// 계산 종료. for문을 벗어난다.
+					break;			//계산 종료. for문을 벗어난다.
 				}
 				if(num==99) {
 					break outer;	//전체 종료. for문과 while문 벗어난다.

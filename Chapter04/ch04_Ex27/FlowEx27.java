@@ -21,7 +21,7 @@ public class FlowEx27 {
 			if(num!=0) {
 				sum += num;
 			}else {
-				flag = false;
+				flag = false;		//flag가 false로 바뀌어서 while문 종료
 			}
 		}
 		System.out.println("합계: "+sum);
