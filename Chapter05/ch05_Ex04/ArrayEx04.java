@@ -9,19 +9,25 @@ public class ArrayEx04 {
 		System.out.println(abc);
 		System.out.println(num);
 		
-		char[] result= new char[abc.length+num.length];	//abc와 num을 붙여서 하나의 배열을 만듬
-		System.arraycopy(abc, 0, result, 0, abc.length);
+		//abc와 num을 붙여서 하나의 배열을 만듬
+		char[] result= new char[abc.length+num.length];				
+
+		//abc[0] 에서 result[0]으로  abc.length개의 데이터 복사
+		System.arraycopy(abc, 0, result, 0, abc.length);			
 		
-		System.out.println(result);
+		System.out.println(result);		//ABCD
 	
-		System.arraycopy(num, 0, result, abc.length, num.length);
-		System.out.println(result);
+		//abc[0] 에서 result[4]으로  num.length개의 데이터 복사
+		System.arraycopy(num, 0, result, abc.length, num.length);	
+		System.out.println(result);		//ABCD0123456789
 		
-		System.arraycopy(abc, 0, num, 0, abc.length);
-		System.out.println(num);
+		//abc[0] 에서 num[0]으로  abc.length개의 데이터 복사
+		System.arraycopy(abc, 0, num, 0, abc.length);		
+		System.out.println(num);		//ABCD456789
 		
+		//abc[0] 에서 num[6]으로  4개의 데이터 복사
 		System.arraycopy(abc, 0, num, 6, 4);
-		System.out.println(num);
+		System.out.println(num);		//ABCD45ABCD
 		
 	}
 }
