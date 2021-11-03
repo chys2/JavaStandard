@@ -13,12 +13,10 @@ public class ArrayEx07 {
 		
 		for(int i=0; i<100; i++) {
 			int n = (int)(Math.random()*10);
-			//System.out.println(n);
-			int tmp = numArr[0];
-			//System.out.println(tmp);
 			
+			int tmp = numArr[0];		//numArr[0]과 numArr[n]을 바꾼다
 			numArr[0] = numArr[n];
-			numArr[n] = tmp;
+			numArr[n] = tmp;			//numArr[0]과 numArr[n]을 바꾼다
 		}
 		
 		
