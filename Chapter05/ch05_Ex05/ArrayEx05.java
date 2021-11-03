@@ -9,10 +9,10 @@ public class ArrayEx05 {
 		int [] score = {100,88,100,100,90};
 		
 		for(int i=0; i<score.length; i++) {
-			sum+=score[i];
+			sum+=score[i];		//score를 다 더함
 		}
 		
-		average = sum/(float)score.length;
+		average = (float)sum/score.length;		//더한 점수를 평균을 만듬
 		
 		System.out.println("총점: "+sum);
 		System.out.println("평균: "+average);

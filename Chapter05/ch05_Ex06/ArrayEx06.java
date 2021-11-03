@@ -8,10 +8,10 @@ public class ArrayEx06 {
 		int min = score[0];
 		
 		for(int i=1; i<score.length; i++) {
-			if(score[i]>max) {
-				max=score[i];
-			}else if(score[i]<min) {
-				min=score[i];
+			if(score[i]>max) {		//score[0]과 비교
+				max=score[i];		//score[0]이 클시 큰 수를 저장
+			}else if(score[i]<min) {//score[0]과 비교
+				min=score[i];		////score[0]이 작을시 작은 수를 저장
 			}
 		}
 		
