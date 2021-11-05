@@ -1,7 +1,5 @@
 package ch05_Ex10;
 
-import java.util.Arrays;
-
 public class ArrayEx10 {
 	public static void main(String args[]) {
 		
@@ -29,7 +27,7 @@ public class ArrayEx10 {
 				}
 			}
 			
-			if(!changed) break;
+			if(!changed) break;		//해당하는 반복문 탈출
 			
 			for(int k=0; k<numArr.length; k++) {
 				System.out.print(numArr[k]);
