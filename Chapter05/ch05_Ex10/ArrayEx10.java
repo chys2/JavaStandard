@@ -17,11 +17,11 @@ public class ArrayEx10 {
 				
 				if(numArr[j]>numArr[j+1]) {
 				
-					int temp = numArr[j];
+					int temp = numArr[j];		//임시 저장, numArr[j]와 numArr[j+1] 바꾼다
 					
 					numArr[j] = numArr[j+1];
 					
-					numArr[j+1] = temp;
+					numArr[j+1] = temp;			//임시 저장한 데이터를 새로운 저장소에 저장, numArr[j]와 numArr[j+1] 바꾼다
 					
 					changed = true;
 				}
