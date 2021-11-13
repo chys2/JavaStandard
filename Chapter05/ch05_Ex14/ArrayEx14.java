@@ -11,8 +11,12 @@ public class ArrayEx14 {
 			System.out.printf("src.charAt(%d): %c%n",i,ch);
 		}
 		
+		
+		//String char[]로 변환
 		char[] chArr= src.toCharArray();
 		
+		
+		//char배열(char[])을 출력
 		System.out.println(chArr);
 	}
 }
