@@ -17,19 +17,19 @@ public class ArrayEx19 {
 			int sum = 0;
 			float avg = 0.0f;
 
-			korTotal += score[i][0];
-			engTotal += score[i][1];
-			mathTotal += score[i][2];
+			korTotal += score[i][0];		//국어 점수 총합
+			engTotal += score[i][1];		//영어 점수 총합
+			mathTotal += score[i][2];		//수학 점수 총합
 
 			System.out.printf("%3d", i + 1);
 
 			for (int j = 0; j < score[i].length; j++){
-				sum += score[i][j];
+				sum += score[i][j];		//총 점수 계산
 				System.out.printf("%5d", score[i][j]);
 
 			}
 			
-			avg = sum/(float) score[i].length;
+			avg = sum/(float) score[i].length;		//평균 계산
 			System.out.printf("%5d %5.1f%n", sum,avg);
 		}
 		
