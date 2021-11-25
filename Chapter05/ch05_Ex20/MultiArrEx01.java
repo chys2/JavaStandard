@@ -28,14 +28,14 @@ public class MultiArrEx01 {
 			
 		}
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);		//스캐너함수 생성
 		
 		while(true) {
 			System.out.printf("좌표를 입력하세요.(종료는 00)>");
 			String input =scanner.nextLine();
 			
 			if(input.length()==2) {	//두 글자를 입력한 경우
-				x = input.charAt(0) - '0';
+				x = input.charAt(0) - '0';		
 				
 				y = input.charAt(1) - '0';
 				
