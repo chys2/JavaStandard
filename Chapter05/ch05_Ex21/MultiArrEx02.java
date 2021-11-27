@@ -17,9 +17,9 @@ public class MultiArrEx02 {
 		
 		for(int i = 0; i<SIZE; i++) {		//배열의 모든 요소룰 1부터 size*size까지의 숫자로 초기화;
 			for(int j= 0; j<SIZE; j++) {
-				bingo[i][j] = i * SIZE + j + 1;
+				bingo[i][j] = i * SIZE + j + 1;		//좌표 설정
 				
-//				System.out.printf("ij bing[%d][%d]는 %d %n",i,j,bingo[i][j]);
+				System.out.printf("ij bing[%d][%d]는 %d %n",i,j,bingo[i][j]);
 			}
 		}
 		
@@ -28,11 +28,11 @@ public class MultiArrEx02 {
 				x = (int)(Math.random()*SIZE);
 				y = (int)(Math.random()*SIZE);
 				
-				int tmp = bingo[i][j];
-				bingo[i][j] = bingo[x][y];
-				bingo[x][y] = tmp;
+				int tmp = bingo[i][j];			//좌표에 데이터 tmp 저장
+				bingo[i][j] = bingo[x][y];		//원래 좌표에 새로운 데이터 입력
+				bingo[x][y] = tmp;				//저장한 데이터 입력
 			
-//				System.out.printf("xy bing[%d][%d]는 %d %n",i,j,bingo[i][j]);
+				System.out.printf("xy bing[%d][%d]는 %d %n",i,j,bingo[i][j]);
 			}
 		}
 		do {
